@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-size: 10px;
+
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(./images/fly-d-C5pXRFEjq3w-unsplash\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem 10rem;
+
+}
+
+header > a {
+  text-decoration: none;
+  font-size: 3.5rem;
+  color: aliceblue;
+
+}
+
+header nav {
+  display: flex;
+  gap: 1.6rem;
+  font-size: 2rem;
+
+}
+
+header nav a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* main page content */
+main {
+  text-align: center;
+
+  font-size: 1.4rem;
+  color: rgb(240, 248, 255);
+  padding: 2rem 10rem;
+}
+main > * {
+  margin-bottom: 4rem;
+}
+main p {
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* about page content */
+.about-main h2 {
+  font-size: 3.4rem;
+}
+
+/*login page content */
+main form {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+main form input{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font: inherit;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+
+}
+main form input:active {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+}
+
+main form input[type="submit"] {
+    background-color: aliceblue;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* footer content */
+footer {
+  text-align: center;
+  color: aliceblue;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem 10rem;
+}
